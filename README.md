@@ -21,7 +21,7 @@ Nonetheless, most people still view BioArt as a new way of viewing life and brin
 The study of cells has been around for centuries, creating a global understanding of cell behavior and molecular structures. While there is undoubtedly more information that is still yet to be discovered, the knowledge about cells that are already known is more than enough to create a system of simulated cells that can mimic basic behaviors. The University of Connecticut Health Center developed a concept similar to this. They developed a computer software called Virtual Cell (VCell), “a general software system that allows biologists with little training in physics and mathematics to engage in computational cell biology.” (Loew & Schaff, 2001, p. 401) With this idea of virtual simulations of cells, what if this could create a different form of BioArt? Such as having a system that could create and manipulate cells not entirely for scientific purposes but also for artistic works.
 Artificial life art does this by creating softwares that imitate certain aspects of biology. Developed in the early 1990s, “artificial genetics and mutations allowed the viewer to interact with stereoscopic creatures and ecosystems.” (Backman, 2008) In addition, it is stated in the article The past, present, and future of artificial life that “ALife attempts to synthesize properties of living systems in computers, machines, and molecules. Thus, ALife aims to understand biological life better by creating systems with life-like properties and developing novel forms of life”. (Aguilar et al., 2014) This leads to say that artificial life is essentially the answer to creating simulated cells for the use of creating BioArt. However, it does not appear that this form of BioArt is being utilized to its fullest potential in creating artificial life art that entirely focuses on the data of real biology.
 
-![Artificial Life Themes](/frobt-01-00008-g002.jpg)
+![Artificial Life Themes](/Images/frobt-01-00008-g002.jpg)
 
 Figure 1. Popularity of different themes per year, as measured by papers published in the Artificial Life journal.
 
@@ -32,7 +32,7 @@ Therefore, by creating cells that mimic the behaviors and functions of natural l
 
 Sickle cell is a genetic blood disorder that affects hemoglobin, the molecule in red blood cells that supplies oxygen throughout the body. Sickle Cells are red blood cells that are underdeveloped due to a lack of hemoglobin in the blood. Normal red blood cells have a circular shape, while sickled cells have a crescent shape, as shown in figure 2. A person with sickle cell would have a mix of both normal red blood cells and sickle cells. Sickle cells usually only live for 10 to 20 days, while normal red blood cells live for approximately 120 days. This short lifespan of sickle cells can cause anemia, weakening the body. Sickle cells have a sticky, inflexible, and rigid structure, causing them to get stuck in small blood vessels, leading to a lack of blood flow and oxygen to various parts of the body, ultimately causing pain.
 
-![Sickle Cell](/disorder_sickle_cell_anaemia_yourgenome.png)
+![Sickle Cell](/Images/disorder_sickle_cell_anaemia_yourgenome.png)
 
 Figure 2. Showcasing the difference between normal red blood cells and sickle cells.
 Image credit: Genome Research Limited
@@ -41,19 +41,19 @@ Image credit: Genome Research Limited
 
 Focusing on the characteristics of Sickle Cell, this project demonstrates in an abstract format how blood flows through the body of a person with sickle cell. This project uses a reactive machine type of artificial intelligence to create and control red blood cells based on fundamental characteristics and data of the cells. With the use of Max/MSP software to create the simulation and control the manipulation of the cells. Characteristics such as size, shape, lifespan, and functions are programmed into each simulated cell. See figure 3. 
 
-![Red Blood Cell](/BloodCell-gif.gif) ![Sickle Cell](/SickleCell-gif.gif)
+![Red Blood Cell](/Images/BloodCell-gif.gif) ![Sickle Cell](/Images/SickleCell-gif.gif)
 
 Figure 3. Showing the 3d modeled red blood cell and sickle cell used for the simulation.
 	
 At the first stage of testing, these cells are then added to the simulation based on the information gathered and spawned into a “blood vessel” placed on the screen. A force is added into the “blood vessel” to help mimic blood flow. This force pushes the cells through the vessel at various speeds, causing them to flow and create their interactions. The “blood vessel” appearance is not shown and instead kept transparent. See figure 4.
 
-![Cells in Blood Vessel](/CellsVein-gif.gif)
+![Cells in Blood Vessel](/Images/CellsVein-gif.gif)
 
 Figure 4. The simulation of the cells in the “blood vessel.”
 
 At the second stage of testing, instead of keeping the cells in “blood vessels,” I decided to experiment with having the cells flow freely. Adding randomly placed forces to make the cells flow around the screen created an expected but exciting interaction between the normal red blood cells and the sickle cells. See figure 5.
 
-![Free Cells](/FreeCells-gif.gif)
+![Free Cells](/Images/FreeCells-gif.gif)
 
 Figure 5. The simulation of the cells moving freely around the screen.
 
