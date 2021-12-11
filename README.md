@@ -1,15 +1,18 @@
 # Can BioArt be Simulated?
-
+<p align="center">
 Kimberly Davis
+</p>
 
 ### Abstract
 
 This paper examines the use of artificial intelligence to create BioArt. In terms of using artificial intelligence to create virtual cells that move and react like real living cells. As a way to mimic the behavior of the cells.
+
 BioArt is a form of art that is more than often created with the use of living tissues, organisms, and bacteria. This practice sometimes leads people to question how ethical this form of art is, while others view this type of art as a new way of viewing life. However, what if there was a way to create BioArt without the use of living components? There is already a wide range of knowledge and databases around biology and the molecular structure of the human body. Given what we know and what information is available, what if artificial intelligence could use this information to mimic the behavior of human cells? Would it then be possible to predict specific reactions? This research paper explores this idea by looking at the different forms of BioArt, what role artificial intelligence can play in creating a more artificial form of BioArt, and taking a look at human cells and examining their basic structure to understand how they function.
+
 Focusing primarily on sickle cells, this research will demonstrate this idea of simulated cells through an interactive BioArt visualization, which will show the effect that sickle cells can have on the blood. Moreover, showing the potential of what could be created, analyzed, or researched through this form of artificial biology.
 
 ### Keywords 
-BioArt, Artificial Life, Cells, Sickle Cell, Artificial Intelligence
+_BioArt, Artificial Life, Cells, Sickle Cell, Artificial Intelligence_
 
 ### Introduction
 
@@ -23,7 +26,7 @@ Artificial life art does this by creating softwares that imitate certain aspects
 
 ![Artificial Life Themes](/Images/frobt-01-00008-g002.jpg)
 
-Figure 1. Popularity of different themes per year, as measured by papers published in the Artificial Life journal.
+_**Figure 1.** Popularity of different themes per year, as measured by papers published in the Artificial Life journal._
 
 Figure 1 shows a chart created to showcase the popularity of different themes of papers published in the Artificial Life Journal between 1993 - 2014. The theme of Computational Biology had been reasonably steady throughout the years; however, the theme of art has not been as well represented in the journal. This is likely because many artists may prefer to showcase their work in different areas. (Aguilar et al., 2014) However, this chart at least shows that using simulated cells (A-Life) that focus more on the data of real biology as a means for creating art is worth exploring further.
 Therefore, by creating cells that mimic the behaviors and functions of natural living cells. This paper explores this idea by creating a BioArt visualization of cells interacting, focusing on blood cells which are some of the most critical cells in the human body. While also showcasing the effects that Sickle Cell can have on the blood.
@@ -34,8 +37,8 @@ Sickle cell is a genetic blood disorder that affects hemoglobin, the molecule in
 
 ![Sickle Cell](/Images/disorder_sickle_cell_anaemia_yourgenome.png)
 
-Figure 2. Showcasing the difference between normal red blood cells and sickle cells.
-Image credit: Genome Research Limited
+_**Figure 2.** Showcasing the difference between normal red blood cells and sickle cells.
+Image credit: Genome Research Limited_
 
 ### Implementation of The Project
 
@@ -43,21 +46,23 @@ Focusing on the characteristics of Sickle Cell, this project demonstrates in an 
 
 ![Red Blood Cell](/Images/BloodCell-gif.gif) ![Sickle Cell](/Images/SickleCell-gif.gif)
 
-Figure 3. Showing the 3d modeled red blood cell and sickle cell used for the simulation.
+_**Figure 3.** Showing the 3d modeled red blood cell and sickle cell used for the simulation._
 	
 At the first stage of testing, these cells are then added to the simulation based on the information gathered and spawned into a “blood vessel” placed on the screen. A force is added into the “blood vessel” to help mimic blood flow. This force pushes the cells through the vessel at various speeds, causing them to flow and create their interactions. The “blood vessel” appearance is not shown and instead kept transparent. See figure 4.
 
 ![Cells in Blood Vessel](/Images/CellsVein-gif.gif)
 
-Figure 4. The simulation of the cells in the “blood vessel.”
+_**Figure 4.** The simulation of the cells in the “blood vessel.”_
 
 At the second stage of testing, instead of keeping the cells in “blood vessels,” I decided to experiment with having the cells flow freely. Adding randomly placed forces to make the cells flow around the screen created an expected but exciting interaction between the normal red blood cells and the sickle cells. See figure 5.
 
 ![Free Cells](/Images/FreeCells-gif.gif)
 
-Figure 5. The simulation of the cells moving freely around the screen.
+_**Figure 5.** The simulation of the cells moving freely around the screen._
 
 In addition, to make this visualization interactive, users can alter the simulation by changing specific values such as the number of cells, colors, force level, and distortion level. These factors can create a noticeable change in the visualization.
+
+#### [Codes For Cell Simulations](https://github.com/Kimberly-D/5010-FinalPaper/tree/main/Codes)
 
 ### Results
 
