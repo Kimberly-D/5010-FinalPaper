@@ -44,13 +44,13 @@ Image credit: Genome Research Limited_
 
 Focusing on the characteristics of Sickle Cell, this project demonstrates in an abstract format how blood flows through the body of a person with sickle cell. This project uses a reactive machine type of artificial intelligence to create and control red blood cells based on fundamental characteristics and data of the cells. With the use of Max/MSP software to create the simulation and control the manipulation of the cells. Characteristics such as size, shape, lifespan, and functions are programmed into each simulated cell. See figure 3. 
 
-![Red Blood Cell](/Images/BloodCell-gif.gif) ![Sickle Cell](/Images/SickleCell-gif.gif)
+![Red Blood Cell](/Images/BloodCell2-gif.gif) ![Sickle Cell](/Images/SickleCell2-gif.gif)
 
 _**Figure 3.** Showing the 3d modeled red blood cell and sickle cell used for the simulation._
 	
 At the first stage of testing, these cells are then added to the simulation based on the information gathered and spawned into a “blood vessel” placed on the screen. A force is added into the “blood vessel” to help mimic blood flow. This force pushes the cells through the vessel at various speeds, causing them to flow and create their interactions. The “blood vessel” appearance is not shown and instead kept transparent. See figure 4.
 
-![Cells in Blood Vessel](/Images/CellsVein-gif.gif)
+![Cells in Blood Vessel](/Images/CellsVein2-gif.gif)
 
 _**Figure 4.** The simulation of the cells in the “blood vessel.”_
 
